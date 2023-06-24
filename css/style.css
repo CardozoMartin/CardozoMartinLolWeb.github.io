@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
+    
 }
 
 body{
@@ -11,9 +11,12 @@ body{
     padding: 0; 
     margin: 0;
     line-height: 1.5;
+    width: 100vw;
+    
+    
 
     
-    overflow-x: auto;
+    
     background-color: black;
    
 
@@ -31,6 +34,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 0 5%;
+    
 }
 nav ul{
     display: flex;
@@ -589,7 +593,7 @@ footer .btnSocial:hover{
         
     }
     #get-the-game .item-store .left img{
-        width: 400px;
+        width: 350px;
     }
     #get-the-game .item-store .right {
         text-align: center;
